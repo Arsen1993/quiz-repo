@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/congratulations"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/correct_answer_color"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/trophyImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="307dp"
+        android:background="@drawable/trophy_award"
+        android:contentDescription="@string/trophy_image" />
+
+    <TextView
+        android:id="@+id/finishActivityNameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/no_name"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/scoreTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/no_score"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/finish"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+
+
+
+</LinearLayout>

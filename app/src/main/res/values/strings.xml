@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">quiz</string>
+    <string name="quiz_app">QUIZ APP</string>
+    <string name="wellcome">WELLCOME</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="name">Name</string>
+    <string name="start">START</string>
+    <string name="questionBody">The flag of which country is this</string>
+    <string name="no_content">No content</string>
+    <string name="no_option">No option</string>
+    <string name="image_content_description">images to gess</string>
+    <string name="submit">SUBMIT</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="trophy_image">trophy_image</string>
+    <string name="no_name">No name</string>
+    <string name="no_score">No score</string>
+    <string name="finish">FINISH</string>
+</resources>
